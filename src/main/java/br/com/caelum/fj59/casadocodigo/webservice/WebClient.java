@@ -2,11 +2,14 @@ package br.com.caelum.fj59.casadocodigo.webservice;
 
 import java.io.IOException;
 
+import org.springframework.stereotype.Component;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 
+@Component
 public class WebClient {
 
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
